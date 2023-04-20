@@ -1,5 +1,5 @@
 function verify(){
-    if (window.localStorage.getItem('uname') != "") {
+    if (window.localStorage.getItem('uname') != null) {
         window.location.href = "pagina2.html"
 
     }
@@ -17,6 +17,6 @@ function prox() {
 }
 
 function redefname() {
-    window.localStorage.setItem("uname","")
+    window.localStorage.setItem("uname",null)
     location.href = "index.html"
 }
