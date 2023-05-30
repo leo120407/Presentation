@@ -1,7 +1,6 @@
 function verify(){
     if (!!window.localStorage.getItem('uname')) {
         window.location.href = "pagina2.html"
-
     }
 }
 
